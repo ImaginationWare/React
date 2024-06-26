@@ -1,7 +1,15 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { Cpu, DollarSign, TrendingUp, Users } from 'lucide-react';
-
+import './App.css';
+function App() {
+  return (
+    <div className="App">
+      <div className="main-container">
+      </div>
+    </div>
+  );
+}
 const WexQ12024Report = () => {
   const financialData = [
     { name: 'Q1 2023', revenue: 612.0, netIncome: 68.0 },
